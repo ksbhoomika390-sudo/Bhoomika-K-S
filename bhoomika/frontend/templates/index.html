@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Management System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<nav>
+    <h2>EMS</h2>
+    <ul>
+        <li><a href="/index">index</a></li>
+        <li><a href="/login">Login</a></li>
+        <li><a href="/register">Register</a></li>
+        <li><a href="/contact">Contact</a></li>
+    </ul>
+</nav>
+<div class="hero">
+    <h1>Employee Management System</h1>
+    <p>Manage employee records easily and efficiently.</p>
+    <a href="/register" class="btn">Get Started</a>
+</div>
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
